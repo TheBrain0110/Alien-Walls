@@ -6,7 +6,7 @@ data:extend({
     name = "hybrid-wall",
     icon = "__AlienWall__/graphics/icons/wall/hybrid-wall.png",
 	icon_size = 32,
-    flags = {"placeable-neutral", "player-creation"},
+    flags = {"placeable-neutral", "player-creation", "not-repairable"},
     minable = {mining_time = 1, result = "hybridized-wall"},
     max_health = HybridHP,
     repair_speed_modifier = 2,
@@ -337,6 +337,27 @@ data:extend({
             draw_as_shadow = true
           }
         }
+      },
+	  water_connection_patch =
+      {
+        sheets =
+        {
+          {
+            filename = "__AlienWall__/graphics/entity/wall/alien-wall-patch.png",
+            priority = "extra-high",
+            width = 52,
+            height = 68,
+            shift = util.by_pixel(0, -2),
+          },
+          {
+            filename = "__base__/graphics/entity/stone-wall/wall-patch-shadow.png",
+            priority = "extra-high",
+            draw_as_shadow = true,
+            width = 74,
+            height = 96,
+            shift = util.by_pixel(6, 13),
+          }
+        }
       }
     }
   },
@@ -357,7 +378,7 @@ data:extend({
     name = "hybrid-gate",
     icon = "__AlienWall__/graphics/icons/gate/hybrid-gate.png",
 	icon_size = 32,
-    flags = {"placeable-neutral","placeable-player", "player-creation"},
+    flags = {"placeable-neutral","placeable-player", "player-creation", "not-repairable"},
     fast_replaceable_group = "wall",
     minable = {hardness = 0.2, mining_time = 0.5, result = "hybridized-gate"},
     max_health = HybridHP,

@@ -22,8 +22,8 @@ data:extend(
   {
     type = "technology",
     name="alien-hybridization1",
-    icon = "__AlienWall__/graphics/icons/wall/hybrid-wall.png",
-	icon_size = 32,
+    icon = '__AlienWall__/graphics/icons/tech/stone-walls.png',
+	icon_size = 128,
     effects = {{type = "unlock-recipe", recipe="hybridized-wall"}},
     prerequisites = {"stone-walls", 'alien-bioengineering'},
 	unit =
@@ -42,8 +42,8 @@ data:extend(
   {
     type = "technology",
     name="alien-hybridization2",
-    icon = "__AlienWall__/graphics/icons/gate/hybrid-gate.png",
-	icon_size = 32,
+    icon = '__AlienWall__/graphics/icons/tech/gates.png',
+	icon_size = 128,
     effects = {{type = "unlock-recipe", recipe="hybridized-gate"}},
     prerequisites = {"alien-hybridization1", "gates"},
 	unit =
@@ -62,8 +62,9 @@ data:extend(
   {
     type = "technology",
     name="alien-hybrid-upgrade1",
-    icon = "__AlienWall__/graphics/icons/wall/hybrid-wall.png",
-	icon_size = 32,
+    icon = '__AlienWall__/graphics/icons/tech/stone-walls-plus.png',
+	icon_size = 128,
+	effects = {},  
     prerequisites = {"alien-hybridization2"},
 	unit =
     {
@@ -80,8 +81,9 @@ data:extend(
   {
     type = "technology",
     name="alien-hybrid-upgrade2",
-    icon = "__AlienWall__/graphics/icons/wall/hybrid-wall.png",
-	icon_size = 32,
+    icon = '__AlienWall__/graphics/icons/tech/stone-walls-plus.png',
+	icon_size = 128,
+	effects = {},
     prerequisites = {"alien-hybrid-upgrade1"},
 	unit =
     {
@@ -100,8 +102,9 @@ data:extend(
   {
     type = "technology",
     name="alien-hybrid-upgrade3",
-    icon = "__AlienWall__/graphics/icons/wall/hybrid-wall.png",
-	icon_size = 32,
+    icon = '__AlienWall__/graphics/icons/tech/stone-walls-plus.png',
+	icon_size = 128,
+	effects = {},
     prerequisites = {"alien-hybrid-upgrade2"},
 	unit =
     {
@@ -120,8 +123,9 @@ data:extend(
   {
     type = "technology",
     name="alien-hybrid-upgrade4",
-    icon = "__AlienWall__/graphics/icons/wall/hybrid-wall.png",
-	icon_size = 32,
+    icon = '__AlienWall__/graphics/icons/tech/stone-walls-plus.png',
+	icon_size = 128,
+	effects = {},
     prerequisites = {"alien-hybrid-upgrade3"},
 	unit =
     {
