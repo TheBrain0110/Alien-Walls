@@ -2,7 +2,7 @@ data:extend(
 {
   {
     type = "item",
-    name = "hybridized-wall",
+    name = "hybrid-wall",
     icon = "__AlienWall__/graphics/icons/wall/hybrid-wall.png",
 	icon_size = 32,
     flags = {"goes-to-quickbar"},
@@ -13,7 +13,7 @@ data:extend(
   },
   {
     type = "item",
-    name = "hybridized-gate",
+    name = "hybrid-gate",
     icon = "__AlienWall__/graphics/icons/gate/hybrid-gate.png",
 	icon_size = 32,
     flags = {"goes-to-quickbar"},

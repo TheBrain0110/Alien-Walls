@@ -2,7 +2,7 @@ data:extend(
 {
     {
 	type = "recipe",
-    name = "hybridized-wall",
+    name = "hybrid-wall",
 	enabled = false,
     energy_required = 2.5,
     ingredients =
@@ -10,11 +10,11 @@ data:extend(
 	  {"alien-bioconstruct", 5},
 	  {"stone", 10},
     },
-    result = "hybridized-wall"
+    result = "hybrid-wall"
   },
   {
     type = "recipe",
-    name = "hybridized-gate",
+    name = "hybrid-gate",
 	enabled = false,
     energy_required = 2.5,
     ingredients =
@@ -23,7 +23,7 @@ data:extend(
 	  {"stone", 5},
 	  {"iron-gear-wheel", 5},
     },
-    result = "hybridized-gate"
+    result = "hybrid-gate"
 	}
 }
 )
