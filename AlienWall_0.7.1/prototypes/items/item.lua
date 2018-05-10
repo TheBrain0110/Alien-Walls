@@ -1,5 +1,15 @@
-data:extend(
-{
+data:extend({
+  {
+	type = "item",
+	name = "alien-bioconstruct",
+	icon = "__AlienWall__/graphics/icons/biomass/alien-bioconstruct.png",
+	icon_size = 32,
+	flags = {"goes-to-main-inventory"},
+	subgroup = "materials",
+	order = "a[exo-skeleton]-a",
+	stack_size = 50,
+	durability = 1,
+  },
   {
     type = "item",
     name = "hybridizedWall",
@@ -21,6 +31,5 @@ data:extend(
     order = "b[hybridGate]",
     place_result = "hybridGate",
     stack_size = 50
-  },
-}
-)
+  }
+})
