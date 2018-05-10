@@ -9,6 +9,7 @@ data:extend({
 	order = "a[alien-bioconstruct]-a",
 	category = "crafting",
 	enabled = "false",
+	energy_required = 10,
 	ingredients = 
 	{
 	  {"alien-artifact", 1},
@@ -21,11 +22,11 @@ data:extend({
 	type = "recipe",
     name = "hybridized-wall",
 	enabled = false,
-    energy_required = 2.5,
+    energy_required = 5,
     ingredients =
     {
 	  {"alien-bioconstruct", 1},
-	  {"stone", 10},
+	  {"stone-brick", 10},
     },
     result = "hybridized-wall"
   },
@@ -33,11 +34,11 @@ data:extend({
     type = "recipe",
     name = "hybridized-gate",
 	enabled = false,
-    energy_required = 2.5,
+    energy_required = 6,
     ingredients =
     {
 	  {"alien-bioconstruct", 1},
-	  {"stone", 5},
+	  {"stone-brick", 5},
 	  {"iron-gear-wheel", 5},
     },
     result = "hybridized-gate"
