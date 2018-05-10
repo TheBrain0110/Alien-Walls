@@ -6,5 +6,5 @@
 	"title":"Alien Walls",
 	"homepage":"http://www.factorioforums.com/forum/viewtopic.php?f=32&t=12840",
 	"description":"Humanity has made many great advances, but still looks to nature for inspiration. Thanks to users ThaPear, ratchetfreak, and Klonan for help on module healing. Thanks to fishycat for updating to 0.15. Thanks to ThaPear and TheBrain0110 for upgradable wall HP",
-	"dependencies": ["base >= 0.16"]
+	"dependencies": ["base >= 0.16", "Natural_Evolution_Enemies", "? bobenemies"]
 }
