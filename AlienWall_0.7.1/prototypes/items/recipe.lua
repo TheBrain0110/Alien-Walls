@@ -13,10 +13,10 @@ data:extend({
 	ingredients = 
 	{
 	  {"alien-artifact", 1},
-	  {"steel-plate", 5}
+	  {"steel-plate", 4}
 	},
 	result = "alien-bioconstruct",
-	result_count = 5
+	result_count = 2
   },
   {
 	type = "recipe",
