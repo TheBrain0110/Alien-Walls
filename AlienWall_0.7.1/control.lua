@@ -12,7 +12,7 @@ function upgrade_wall_section(wall)
    local dir = wall.direction
    local newWall = {}
    -- Is the current thing a gate?
-   if string.find(wall.name, "gate") ~= nil then
+   if string.find(wall.name, "Gate") ~= nil then
       -- Create a gate.
       wall.destroy()
       newWall = game.surfaces[1].create_entity{name = gateNames[walltier], position = pos, direction = dir, force = game.forces.player}
