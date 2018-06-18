@@ -72,7 +72,12 @@ local hybridWall = {
       },
       {
         type = "fire",
-        percent = 75
+        percent = 99
+      },
+      {
+        type = "acid",
+        decrease = 8,
+        percent = 33
       },
       {
         type = "laser",
@@ -408,7 +413,12 @@ local hybridGate = {
       },
       {
         type = "fire",
-        percent = 75
+        percent = 99
+      },
+      {
+        type = "acid",
+        decrease = 8,
+        percent = 33
       },
       {
         type = "laser",
